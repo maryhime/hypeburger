@@ -1,4 +1,9 @@
-export const featuredBurgers = [
+/* 
+  Object.freeze 
+  it freezes the object to prevent extensions and make it non-writable and non-configurable 
+  this is good for static data
+*/
+export const FEATURED_BURGERS = Object.freeze([
   {
     "title": "Abundant Nutrition",
     "description": "Each bite serves you with the healthiest local ingredients.",
@@ -17,13 +22,13 @@ export const featuredBurgers = [
     "image": "images/burger-2.svg",
     "isFlip": false
   },
-];
+]);
 
 
-export const anotherFEaturedBurger = [
+export const ANOTHERTEST = Object.freeze([
   {
     "name": "Kyoto Kika",
     "price": "USD 25",
     "image": "USD 25",
   }
-]
+]);

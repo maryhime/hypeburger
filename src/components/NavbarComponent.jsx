@@ -1,4 +1,5 @@
 import React from 'react'
+import { NAVIGATIONS } from '../routes'
 
 const NavbarComponent = () => {
   return (
@@ -8,9 +9,7 @@ const NavbarComponent = () => {
       </div>
       <div className="hidden md:block lg:block w-full items-center">
         <ul className='flex flex-row gap-16 uppercase text-primary text-navbar font-headings justify-end'>
-          <li>About</li>
-          <li>Menu</li>
-          <li>Contact</li>
+          {NAVIGATIONS.map((value, index) => <li>{value}</li>)}
         </ul>
       </div>
       <div className="px-[12px] py-[12px]">
