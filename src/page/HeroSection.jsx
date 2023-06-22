@@ -11,7 +11,7 @@ const HeroSection = () => {
         </div>
         <div className="flex justify-center">
           <LinkComponent url={'#'}>
-            <Button text={'Find Location'} style={'bg-primary text-white '} />
+            <Button text={'Find Location'} style={'bg-primary text-white hover:bg-accent-2'} />
           </LinkComponent>
         </div>
       </div>
@@ -33,11 +33,6 @@ const HeroSection = () => {
         </div>
       </div>
       <img className='hidden 2xl:block absolute top-0 left-[350px] z-0 ' src="images/hero-blush.svg" alt="" />
-
-
-
-
-
     </div>
   )
 }
