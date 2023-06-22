@@ -100,14 +100,14 @@ module.exports = {
           '0%': { transform: 'translateX(-500px)' },
           '100%': { transform: 'translateX(0px)' },
         },
-       
+
       },
       animation: {
         'slide-left': 'slide-left 10s linear infinite alternate-reverse forwards',
 
         'slide-right': 'slide-right 10s linear infinite alternate-reverse forwards',
 
-        
+
       },
 
     }
