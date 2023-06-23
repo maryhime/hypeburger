@@ -1,5 +1,6 @@
 import BannerComponent from "./components/BannerComponent";
 import NavbarComponent from "./components/NavbarComponent";
+import CTABlock from "./page/CTABlock";
 import FeaturedSection from "./page/FeaturedSection";
 import HeroSection from "./page/HeroSection";
 import ProductSection from "./page/ProductSection";
@@ -15,29 +16,39 @@ export const PAGES = [
     'component': <NavbarComponent />,
   },
   {
-    'name': 'Navbar',
+    'name': 'Hero Section',
     'path': '/name',
     'component': <HeroSection />,
   },
   {
-    'name': 'Navbar',
+    'name': 'Banner',
     'path': '/name',
     'component': <BannerComponent text={'take a bite'} />,
   },
   {
-    'name': 'Navbar',
+    'name': 'Featured Section',
     'path': '/name',
     'component':  <FeaturedSection />,
   },
   {
-    'name': 'Navbar',
+    'name': 'Product Section',
     'path': '/name',
     'component':  <ProductSection />,
   },
   {
-    'name': 'Navbar',
+    'name': 'Testimonials',
     'path': '/name',
     'component':  <TestimonialsSection />,
+  },
+  {
+    'name': 'Banner',
+    'path': '/name',
+    'component': <BannerComponent text={'take a bite'} />,
+  },
+  {
+    'name': 'CTA Block',
+    'path': '/name',
+    'component': <CTABlock />,
   },
   
 ]
