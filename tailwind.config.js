@@ -42,7 +42,7 @@ module.exports = {
         fontWeight: '700',
       }],
       'body': ['20px', {
-        lineHeight: '18px',
+        lineHeight: '150%',
         letterSpacing: '0px',
         fontWeight: '400',
       }],

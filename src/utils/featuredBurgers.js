@@ -3,7 +3,7 @@
   it freezes the object to prevent extensions and make it non-writable and non-configurable 
   this is good for static data
 */
-export const FEATURED_BURGERS = Object.freeze([
+export const FEATUREDBURGERS = Object.freeze([
   {
     "title": "Abundant Nutrition",
     "description": "Each bite serves you with the healthiest local ingredients.",

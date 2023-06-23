@@ -11,7 +11,7 @@ const HeroSection = () => {
         </div>
         <div className="flex justify-center">
           <LinkComponent url={'#'}>
-            <Button text={'Find Location'} style={'bg-primary text-white hover:bg-accent-2'} />
+            <Button text={'Find Location'} className={'btn-primary'} />
           </LinkComponent>
         </div>
       </div>
