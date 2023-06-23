@@ -25,10 +25,35 @@ export const FEATUREDBURGERS = Object.freeze([
 ]);
 
 
-export const ANOTHERTEST = Object.freeze([
+export const BURGERLIST = Object.freeze([
   {
     "name": "Kyoto Kika",
-    "price": "USD 25",
-    "image": "USD 25",
-  }
+    "price": "$25",
+    "image": "images/burger-5.svg",
+  },
+  {
+    "name": "The Bentenator",
+    "price": "$18",
+    "image": "images/hero-burger.svg",
+  },
+  {
+    "name": "Flava Fons",
+    "price": "$20",
+    "image": "images/burger-2.svg",
+  },
+  {
+    "name": "Stack of Stanchev",
+    "price": "$34",
+    "image": "images/burger-3.svg",
+  },
+  {
+    "name": "Triple Tirado",
+    "price": "$26",
+    "image": "images/burger-4.svg",
+  },
+  {
+    "name": "Raving Russo",
+    "price": "$32",
+    "image": "images/burger-5.svg",
+  },
 ]);

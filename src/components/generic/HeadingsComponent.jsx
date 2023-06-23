@@ -6,7 +6,7 @@ const HeadingsComponent = ({subheading,highlighted, heading}) => {
       <div className="text-accent-2 uppercase text-red-heading flex justify-center">
         {subheading}
       </div>
-      <div className="text-main uppercase text-white">
+      <div className="text-main uppercase text-white text-center">
         <span className='text-primary'>{highlighted} </span>{heading}
       </div>
     </div>

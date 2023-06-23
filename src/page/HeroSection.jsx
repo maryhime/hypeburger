@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="bg-[url('/images/hero-background.svg')] h-fit w-full bg-blend-darken bg-repeat relative flex flex-col py-[103px] justify-center gap-48 overflow-hidden">
       <div className="flex flex-col justify-center  gap-24 lg:gap-48 px-24 md:px-48 xlg:px-100 z-20">
-        <div className="text-main-m lg:text-main text-white uppercase font-headings text-center">
+        <div className="text-main-m  lg:text-[95px] lg:break-after-auto xl:text-main text-white uppercase font-headings text-center">
           Mind <span className='text-primary'>Blowing</span> bites
         </div>
         <div className="flex justify-center">
@@ -17,7 +17,7 @@ const HeroSection = () => {
       </div>
       <div className="relative w-full flex justify-center items-end">
         {/* burger */}
-        <img className=' lg:pt-100 z-10 md:scale-95 xl:scale-125 ' src="images/hero-burger.svg" alt="" />
+        <img className=' xl:pt-100 z-10 md:scale-90 xl:scale-125 ' src="images/hero-burger.svg" alt="" />
 
         {/* text behind burger */}
         <div className='hidden absolute top-40 left-0 -z-0  w-full md:flex flex-col opacity-50 blur-[10px]'>

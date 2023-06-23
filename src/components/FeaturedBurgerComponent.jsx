@@ -8,8 +8,8 @@ const FeaturedBurgerComponent = () => {
     <Fragment>
       {
         FEATUREDBURGERS.map((value, index) => (
-          <div className={`flex lg0:flex ${value.isFlip ? 'flex-row-reverse' : 'flex-row'} gap-48 w-fit items-center`} key={index}>
-            <img className='w-full' src={value.image} alt="" />
+          <div className={`flex xl:flex ${value.isFlip ? 'flex-row-reverse' : 'flex-row'} gap-48 w-fit items-center`} key={index}>
+            <img className='w-[500px] xl:w-full' src={value.image} alt="" />
 
             <div className="flex flex-col gap-48 w-full uppercase font-headings">
               <div className="text-h2 text-primary">
