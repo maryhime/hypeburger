@@ -2,6 +2,7 @@ import React from 'react'
 import HeadingsComponent from '../components/generic/HeadingsComponent'
 import CardComponent from '../components/generic/CardComponent'
 import OutlinedButtonComponent from '../components/generic/OutlinedButtonComponent'
+import LinkComponent from '../components/generic/LinkComponent'
 
 const ProductSection = () => {
   return (
@@ -13,7 +14,9 @@ const ProductSection = () => {
         <CardComponent />
       </div>
 
-      <OutlinedButtonComponent text={'View All'} />
+      <LinkComponent>
+        <OutlinedButtonComponent text={'View All'} hidden={true} />
+      </LinkComponent>
     </div>
   )
 }

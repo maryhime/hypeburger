@@ -1,4 +1,5 @@
 import BannerComponent from "./components/BannerComponent";
+import FooterComponent from "./components/FooterComponent";
 import NavbarComponent from "./components/NavbarComponent";
 import CTABlock from "./page/CTABlock";
 import FeaturedSection from "./page/FeaturedSection";
@@ -49,6 +50,12 @@ export const PAGES = [
     'name': 'CTA Block',
     'path': '/name',
     'component': <CTABlock />,
+  },
+  
+  {
+    'name': 'Footer',
+    'path': '/name',
+    'component': <FooterComponent />,
   },
   
 ]

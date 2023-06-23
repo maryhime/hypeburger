@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="bg-[url('/images/hero-background.svg')] h-fit w-full bg-blend-darken bg-repeat relative flex flex-col py-[103px] justify-center gap-48 overflow-hidden">
       <div className="flex flex-col justify-center  gap-24 lg:gap-48 px-24 md:px-48 xlg:px-100 z-20">
-        <div className="text-main-m  lg:text-[95px] lg:break-after-auto xl:text-main text-white uppercase font-headings text-center">
+        <div className="text-main-m  lg:text-[9px] lg:break-after-auto xl:text-main text-white uppercase font-headings text-center">
           Mind <span className='text-primary'>Blowing</span> bites
         </div>
         <div className="flex justify-center">
