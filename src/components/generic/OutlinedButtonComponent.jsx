@@ -14,7 +14,7 @@ const OutlinedButtonComponent = ({ text, hidden = false }) => {
           </div>
 
           {ICONS.map((value, index) => (
-            <img key={index} src={`${value.location}`} alt="" />
+            <img key={index} src={`${value.arrow}`} alt="" />
           ))}
         </Fragment>)
       }

@@ -59,7 +59,7 @@ module.exports = {
       'footer-b': ['14px', {
         lineHeight: '21px',
         letterSpacing: '0px',
-        fontWeight: '400',
+        fontWeight: '300',
       }],
       'navbar': ['16px', {
         lineHeight: '24px',
