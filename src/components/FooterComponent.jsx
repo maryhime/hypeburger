@@ -116,7 +116,18 @@ const FooterComponent = () => {
       <div className="flex flex-col text-white gap-[32px] ">
        <hr />
         <div className="flex flex-row text-footer-b">
+        <div className="w-full">
         2022 Hypeburger. All right reserved.
+        </div>
+ 
+        <ul className="flex flex-row w-full gap-16">
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
+          <li>Cookies Setting</li>
+        </ul>
+
+        
+
         </div>
       </div>
 
