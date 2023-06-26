@@ -42,11 +42,11 @@ const FooterComponent = () => {
             About
           </div>
 
-          <di className="text-white text-footer-b font-body flex flex-col gap-8 list-none">
+          <div className="text-white text-footer-b font-body flex flex-col gap-8 list-none">
             <li>Our Team</li>
             <li>Our Values</li>
             <li>Our Story</li>
-          </di>
+          </div>
 
         </div>
 

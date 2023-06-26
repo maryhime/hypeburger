@@ -6,7 +6,7 @@ import { PAGES } from './routes'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className="bg-[url('/images/background.svg')] h-fit w-full bg-no-repeat bg-cover">
+    <div className="bg-[url('/images/background.svg')] ] bg-no-repeat bg-cover h-screen w-screen">
       {PAGES.map((value, index) => <Fragment key={index}>
         {value.component}
       </Fragment>)}
