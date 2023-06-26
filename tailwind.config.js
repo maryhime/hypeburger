@@ -21,7 +21,7 @@ module.exports = {
         letterSpacing: '-6.5px',
         fontWeight: '700',
       }],
-      'main-m': ['80px', {
+      'main-m': ['70px', {
         lineHeight: '99.67px',
         letterSpacing: '-6.5px',
         fontWeight: '700',

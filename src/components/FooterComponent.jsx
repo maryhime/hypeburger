@@ -62,7 +62,7 @@ const FooterComponent = () => {
       </div>
 
       <div className="flex flex-col pt-48 text-white gap-[32px] border-t-[1px] border-primary ">
-        <div className="md:text-[10px] flex flex-col-reverse gap-16 lg:gap-48 md:flex-row text-footer-b">
+        <div className="md:text-[10px] lg:text-footer-b flex flex-col-reverse gap-16 lg:gap-48 md:flex-row text-footer-b">
           <p className="w-64 xl:w-72">
             2022 Hypeburger. All right reserved.
           </p>
@@ -83,8 +83,6 @@ const FooterComponent = () => {
               </div>
 
             )}
-
-
 
           </div>
         </div>

@@ -2,17 +2,20 @@ import React from 'react'
 
 const BannerComponent = ({ text }) => {
   return (
-    <div className=" w-full flex lg:flex-row lg:gap-24 xl:gap-[165px] text-red-heading text-[24px] text-primary uppercase bg-transparent px-24 md:px-80 xl:px-100 py-48 h-[142px] items-center animate-pulse">
-      {
-        [...Array(7)].map((_, index) => (
-          <>
-            <div className="w-full">
-              {text}
-            </div>
+    <div className=" w-fit grid grid-cols-3 md:grid-cols-6 gap-8 md:gap-16 lg:gap-[80px] xl:gap-[100px] text-[16px] font-[700] xl:text-red-heading md:text-[18spx] text-primary uppercase bg-transparent  py-48 h-[142px] items-center justify-center animate-pulse mx-auto">
 
-          </>
-        ))
-      }
+        {
+          [...Array(6)].map((_, index) => (
+            <>
+              <div className="w-fit">
+                {text}
+              </div>
+
+            </>
+          ))
+        }
+    
+
     </div>
   )
 }
