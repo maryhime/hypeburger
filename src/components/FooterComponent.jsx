@@ -47,14 +47,11 @@ const FooterComponent = () => {
               {value.title}
             </div>
 
-
-            <ul className="text-white text-footer-b font-body flex flex-col gap-8">
-              <li>{value.content[0]}</li> 
-              <li>{value.content[1]}</li> 
-              <li>{value.content[2]}</li> 
-              <li>{value.content[3]}</li> 
-              <li>{value.content[4]}</li> 
-            </ul>
+            {value.content.map((item, index) => <>
+              <ul className="text-white text-footer-b font-body flex flex-col gap-8">
+                <li>{item}</li>
+              </ul>
+            </>)}
           </div>
 
         )}
