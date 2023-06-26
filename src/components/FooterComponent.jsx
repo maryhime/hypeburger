@@ -62,12 +62,12 @@ const FooterComponent = () => {
       </div>
 
       <div className="flex flex-col pt-48 text-white gap-[32px] border-t-[1px] border-primary ">
-        <div className="flex flex-col-reverse gap-8 md:gap-48 md:flex-row text-footer-b">
+        <div className="flex flex-col-reverse gap-16 md:gap-48 md:flex-row text-footer-b">
           <p className="w-72">
             2022 Hypeburger. All right reserved.
           </p>
 
-          <div className="flex flex-row w-full">
+          <div className="flex flex-col md:flex-row w-full gap-16">
             <ul className="flex flex-row w-full gap-16 justify-start underline">
               <li>Privacy Policy</li>
               <li>Terms of Service</li>
@@ -75,7 +75,7 @@ const FooterComponent = () => {
             </ul>
 
             {ICONS.map((value, index) =>
-              <div className=" flex md:flex-row md:gap-16 justify-end" key={index}>
+              <div className=" flex w-full gap-16 md:flex-row md:gap-16 md:justify-end" key={index}>
                 <img src={value.facebook} alt="" />
                 <img src={value.instagram} alt="" />
                 <img src={value.twitter} alt="" />
