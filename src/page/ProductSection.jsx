@@ -6,7 +6,7 @@ import LinkComponent from '../components/generic/LinkComponent'
 
 const ProductSection = () => {
   return (
-    <div className="flex flex-col w-full px-24 lg:px-100 py-100 justify-center items-center gap-82">
+    <div className="flex flex-col w-full px-24 md:px-80 xl:px-100 py-100 justify-center items-center gap-82">
       <HeadingsComponent subheading={'Made with love'} highlighted={'Featured'} heading={'Burgers'} />
 
       {/* cards */}
